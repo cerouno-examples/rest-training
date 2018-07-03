@@ -1,0 +1,27 @@
+{
+  "name": "rest-training",
+  "version": "1.0.0",
+  "description": "CeroUno Rest",
+  "main": "index.js",
+  "author": "adriancuadros <adrian@reservamos.mx>",
+  "license": "MIT",
+  "scripts": {
+    "read": "nodemon index.js read",
+    "practice": "nodemon index.js practice"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "sequelize": "^4.38.0",
+    "sqlite3": "^4.0.1"
+  }
+}
