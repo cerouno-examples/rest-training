@@ -2,13 +2,13 @@
 
 Un estilo para definir la comunicación en una aplicación web. Este estilo asume que trabajamos con **Recursos** y que normalmente lo que queremos hacer es **crearlos**, **leerlos**, **actualizarlos** o **eliminarlos**.
 
-## Requerimientos
+## Requerimientos
 
 * Node
 * Sequelize 3
 * [Postman](https://www.getpostman.com/apps)
 
-## Para ver el contenido
+## Para ver el contenido
 
 `npm install`
 
@@ -20,7 +20,7 @@ Por ejemplo:
 
 `npm run read 1`
 
-Correrá el archivo en `/content/1-express/read.js
+Correrá el archivo en `/content/1-express/read.js`
 
 ## Conceptos Importantes
 
@@ -33,7 +33,7 @@ Correrá el archivo en `/content/1-express/read.js
 * CRUD
   * Create, Read, Update && Delete
 
-## URLs
+## URLs
 
 Rest utiliza inteligentemente los métodos HTTP para lograr tener URLs expresivos que se entiendan de manera sencilla al leerlos.
 
